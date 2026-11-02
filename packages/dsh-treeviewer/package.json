@@ -1,0 +1,69 @@
+{
+  "name": "dsh-treeviewer",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness (dsh) plugin: render phylogenetic trees with TreeViewer from chat or a dedicated panel.",
+  "type": "module",
+  "license": "MIT",
+  "author": "dsh-treeviewer contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZengZichao/dsh-treeviewer-plugin.git"
+  },
+  "homepage": "https://github.com/ZengZichao/dsh-treeviewer-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/ZengZichao/dsh-treeviewer-plugin/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "treeviewer",
+    "phylogenetics",
+    "tree-rendering"
+  ],
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "lib/",
+    "locale/",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.5 <0.3.0"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "dependencies": {
+    "treeviewer-core": "file:../treeviewer-core"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.2.1-rc.5 <0.3.0"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-tools": "0.2.1-rc.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node --test test/*.test.js"
+  }
+}

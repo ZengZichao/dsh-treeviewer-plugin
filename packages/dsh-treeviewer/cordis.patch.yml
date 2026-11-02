@@ -1,0 +1,23 @@
+# Bundle patch for dsh-treeviewer.
+#
+# The `insert` row mounts the host half (src/index.js). The browser half is
+# served separately through `dsh.client` in package.json.
+- insert:
+    - id: dsh-treeviewer
+      name: dsh-treeviewer
+      config:
+        # Absolute path to TreeViewerCommandLine(.exe). Empty = auto-detect from
+        # TREEVIEWER_CLI, PATH, or the platform default install locations.
+        cliPath: ''
+        # Working directory for the persistent CLI, sample tree and temp exports.
+        # Empty = <system temp>/dsh-treeviewer.
+        workDir: ''
+        trust:
+          # SHA-256 hashes or absolute paths of .tbi/module files whose embedded
+          # source may be compiled. Everything else is refused.
+          allow: []
+          # Also store the file's public key after an allowed source prompt.
+          rememberKeys: false
+        commandTimeoutMs: 300000
+        introspectionTimeoutMs: 120000
+        idleTimeoutMs: 300000

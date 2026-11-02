@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "TreeViewer",
+    "description": "Render phylogenetic trees with the local TreeViewer command line, from chat or a dedicated panel."
+  }
+}
