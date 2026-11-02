@@ -1,3 +1,8 @@
+---
+layout: default
+title: Configuration
+---
+
 # Configuration
 
 Plugin configuration lives in the profile's `cordis.patch.yml` (default:

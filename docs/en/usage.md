@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tools and panel
+---
+
 # Tools and panel
 
 The plugin has two surfaces: model tools in a conversation, and a dedicated panel in the dsh main

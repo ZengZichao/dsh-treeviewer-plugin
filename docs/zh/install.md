@@ -1,3 +1,8 @@
+---
+layout: default
+title: 安装与卸载
+---
+
 # 安装与卸载
 
 本页说明如何把 **dsh-treeviewer** 装进 DeepSeek Harness（dsh），以及如何确认它已经生效。

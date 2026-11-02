@@ -1,0 +1,7 @@
+title: dsh-treeviewer
+description: TreeViewer × DeepSeek Harness (dsh) plugin
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Security model
+---
+
 # Security model
 
 The plugin runs locally, makes no network requests, and collects no data. Its only outbound action is

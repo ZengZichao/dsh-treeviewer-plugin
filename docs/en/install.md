@@ -1,3 +1,8 @@
+---
+layout: default
+title: Install and uninstall
+---
+
 # Install and uninstall
 
 This page explains how to install **dsh-treeviewer** into DeepSeek Harness (dsh) and how to confirm

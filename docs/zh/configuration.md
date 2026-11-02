@@ -1,3 +1,8 @@
+---
+layout: default
+title: 配置
+---
+
 # 配置
 
 插件的配置写在 profile 的 `cordis.patch.yml`（默认位于 `~/.dsh/profiles/<profile>/cordis.patch.yml`），

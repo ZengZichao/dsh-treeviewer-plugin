@@ -64,6 +64,8 @@ dsh plugin --profile desktop remove dsh-treeviewer
 | 安全模型 | [docs/zh/security.md](docs/zh/security.md) | [docs/en/security.md](docs/en/security.md) |
 | 故障排查 | [docs/zh/troubleshooting.md](docs/zh/troubleshooting.md) | [docs/en/troubleshooting.md](docs/en/troubleshooting.md) |
 
+在线文档：<https://zengzichao.github.io/dsh-treeviewer-plugin/>
+
 English: [README.en.md](README.en.md)
 
 ## 项目结构

@@ -73,6 +73,8 @@ Full instructions are below.
 | Security model | [docs/zh/security.md](docs/zh/security.md) | [docs/en/security.md](docs/en/security.md) |
 | Troubleshooting | [docs/zh/troubleshooting.md](docs/zh/troubleshooting.md) | [docs/en/troubleshooting.md](docs/en/troubleshooting.md) |
 
+Live docs: <https://zengzichao.github.io/dsh-treeviewer-plugin/>
+
 中文：[README.md](README.md)
 
 ## Repository layout
